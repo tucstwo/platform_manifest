@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+  <remote name="github" fetch="git://github.com/" />
+ 
+  <!-- AOKP removals -->
+  <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
+ 
+  <!-- AOKP replacements -->
+  <project name="usmcamgrimm/vendor_aokp" path="vendor/aokp" remote="github" revision="kitkat" />
+  <project name="usmcamgrimm/packages_apps_ROMControl" path="packages/apps/ROMControl" remote="github" revision="kitkat" />
+ 
+</manifest>
